@@ -1,2 +1,1 @@
-class NoteNotFoundException: Exception() {
-}
+class NoteNotFoundException(message: String) : RuntimeException(message)
